@@ -45,8 +45,10 @@
         // Africa
         drc: "Dem. Rep. Congo",
         "dr congo": "Dem. Rep. Congo",
+	"drcongo": "Dem. Rep. Congo",
         car: "Central African Rep.",
         rsa: "South Africa",
+	sa: "South Africa",
         zaf: "South Africa",
 
         // Common 3-letter country codes
