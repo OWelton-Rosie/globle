@@ -54,6 +54,7 @@
         rsa: "South Africa",
 	    sa: "South Africa",
         zaf: "South Africa",
+        za: "South Africa",
 
         // Common 3-letter country codes
         afg: "Afghanistan",
