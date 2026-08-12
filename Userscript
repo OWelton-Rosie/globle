@@ -29,6 +29,8 @@
         mex: "Mexico",
         bra: "Brazil",
         prc: "China",
+        chn: "China",
+        ch: China",
 
         // Europe
         uk: "United Kingdom",
@@ -38,17 +40,19 @@
         // Middle East / Asia
         uae: "United Arab Emirates",
         are: "United Arab Emirates",
+        qat: "Qatar",
         dprk: "North Korea",
         prk: "North Korea",
+        rok: "South Korea",
         kor: "South Korea",
 
         // Africa
         drc: "Dem. Rep. Congo",
         "dr congo": "Dem. Rep. Congo",
-	"drcongo": "Dem. Rep. Congo",
+	    "drcongo": "Dem. Rep. Congo",
         car: "Central African Rep.",
         rsa: "South Africa",
-	sa: "South Africa",
+	    sa: "South Africa",
         zaf: "South Africa",
 
         // Common 3-letter country codes
