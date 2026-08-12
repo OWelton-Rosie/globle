@@ -3,6 +3,7 @@
 // @namespace    https://oweltonrosie.com/
 // @version      1.0.0
 // @description  Let Globle accept common country abbreviations and codes
+// @repository   https://github.com/OWelton-Rosie/globle
 // @match        https://globle-game.com/*
 // @grant        none
 // @run-at       document-start
@@ -184,6 +185,8 @@
         omn: "Oman",
         pak: "Pakistan",
         plw: "Palau",
+        pl:  "Palestine",
+        pla: "Palestine
         pan: "Panama",
         png: "Papua New Guinea",
         pry: "Paraguay",
