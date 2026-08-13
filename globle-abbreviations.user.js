@@ -1,13 +1,13 @@
 // @name         Globle Country Abbreviations
-// @namespace    https://github.com/YOUR-USERNAME/globle-abbreviations
+// @namespace    https://github.com/OWelton-Rosie/globle
 // @version      1.0.0
 // @description  Adds common country abbreviations and codes to Globle
 // @author       Oscar
 // @match        https://globle-game.com/*
 // @grant        none
 // @run-at       document-start
-// @updateURL    https://raw.githubusercontent.com/OWelton-Rosie/globle-abbreviations/main/globle-abbreviations.user.js
-// @downloadURL  https://raw.githubusercontent.com/OWelton-Rosie/globle-abbreviations/main/globle-abbreviations.user.js
+// @updateURL    https://raw.githubusercontent.com/OWelton-Rosie/globle/main/globle-abbreviations.user.js
+// @downloadURL  https://raw.githubusercontent.com/OWelton-Rosie/globle/main/globle-abbreviations.user.js
 // ==/UserScript==
 (() => {
     "use strict";
