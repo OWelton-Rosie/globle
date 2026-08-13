@@ -9,6 +9,8 @@
 // @updateURL    https://raw.githubusercontent.com/OWelton-Rosie/globle/main/globle-abbreviations.user.js
 // @downloadURL  https://raw.githubusercontent.com/OWelton-Rosie/globle/main/globle-abbreviations.user.js
 // ==/UserScript==
+
+
 (() => {
     "use strict";
 
