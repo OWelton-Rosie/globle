@@ -1,8 +1,9 @@
+// ==UserScript==
 // @name         Globle Country Abbreviations
 // @namespace    https://github.com/OWelton-Rosie/globle
 // @version      1.0.0
 // @description  Adds common country abbreviations and codes to Globle
-// @author       Oscar
+// @author       Oscar Welton-Rosie
 // @match        https://globle-game.com/*
 // @grant        none
 // @run-at       document-start
@@ -15,12 +16,10 @@
     "use strict";
 
     const aliases = {
-        // Korea
-        dprk: "North Korea",
-        rok: "South Korea",
 
         // Australia / New Zealand
         aus: "Australia",
+        aussie: "Australia",
         nz: "New Zealand",
         nzl: "New Zealand",
 
@@ -32,8 +31,7 @@
         mex: "Mexico",
         bra: "Brazil",
         prc: "China",
-        chn: "China",
-        ch: "China",
+
 
         // Europe
         uk: "United Kingdom",
@@ -48,18 +46,19 @@
         prk: "North Korea",
         rok: "South Korea",
         kor: "South Korea",
+        chn: "China",
+        ch: "China",
 
         // Africa
         drc: "Dem. Rep. Congo",
-        "dr congo": "Dem. Rep. Congo",
-	    "drcongo": "Dem. Rep. Congo",
+	    drcongo: "Dem. Rep. Congo",
         car: "Central African Rep.",
         rsa: "South Africa",
 	    sa: "South Africa",
         zaf: "South Africa",
         za: "South Africa",
 
-        // Common 3-letter country codes
+        // Common country codes (and some not-so-common ones that I use)
         afg: "Afghanistan",
         alb: "Albania",
         dza: "Algeria",
@@ -219,10 +218,17 @@
         zaf: "South Africa",
         ssd: "S. Sudan",
         esp: "Spain",
+        spa: "Spain",
+        srl: "Sri Lanka",
+        srlk: "Sri Lanka",
+        srlanka: "Sri Lanka",
+        srlk: "Sri Lanka",
         lka: "Sri Lanka",
-        sdN: "Sudan",
+        sdn: "Sudan",
+        sud: "Sudan",
         sur: "Suriname",
         swe: "Sweden",
+        swed: "Sweden",
         che: "Switzerland",
         syr: "Syria",
         tjk: "Tajikistan",
@@ -241,12 +247,15 @@
         ury: "Uruguay",
         uzb: "Uzbekistan",
         vut: "Vanuatu",
-        vat: "Vatican City",
+        vat: "Vatican",
+        pope: "Vatican",
         ven: "Venezuela",
         vnm: "Vietnam",
         yem: "Yemen",
         zmb: "Zambia",
-        zwe: "Zimbabwe"
+        zamb: "Zambia",
+        zwe: "Zimbabwe",
+        zimb: "Zimbabwe"
     };
 
     function normalise(value) {

@@ -57,7 +57,7 @@
         zaf: "South Africa",
         za: "South Africa",
 
-        // Common 3-letter country codes
+        // Common 3-letter country codes (and some not-so-common ones)
         afg: "Afghanistan",
         alb: "Albania",
         dza: "Algeria",
@@ -126,6 +126,8 @@
         guy: "Guyana",
         hti: "Haiti",
         hnd: "Honduras",
+        hon: "Honduras",
+        hond: "Honduras",
         hun: "Hungary",
         isl: "Iceland",
         ice: "Iceland",
@@ -237,6 +239,7 @@
         uga: "Uganda",
         ukr: "Ukraine",
         ury: "Uruguay",
+        urug: "Uruguay",
         uzb: "Uzbekistan",
         vut: "Vanuatu",
         vat: "Vatican City",
@@ -244,7 +247,9 @@
         vnm: "Vietnam",
         yem: "Yemen",
         zmb: "Zambia",
-        zwe: "Zimbabwe"
+        zamb: "Zambia",
+        zwe: "Zimbabwe",
+        zimb: "Zimbabwe"
     };
 
     function normalise(value) {
